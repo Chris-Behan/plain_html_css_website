@@ -6,6 +6,7 @@
 
 .navigation-bar {
 	background-color: #34699a;
+	justify-content: center;
 	margin: 0;
 	padding: 0;
 }
@@ -41,11 +42,6 @@
 	font-size: 2em;
 	font-family: monospace;
 }
-.about-container {
-	display: flex;
-}
-
-
 
 .menu1 {
     flex: 1;
@@ -54,7 +50,6 @@
     justify-content: center;
     background-color: #30e3ca;
 
-
 }
 
 .content1 {
@@ -62,13 +57,56 @@
 	align-items: stretch;
 }
 
-
-
 .navigation-button {
     padding: 10px;
     margin: 10px;
 }
 
+.about-container {
+	display: flex;
+	justify-content: space-around;
+}
+#about-label{
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 4em;
+	text-decoration: underline;
+	margin-bottom: 5%;
+}
+#profile-pic {
+	width: 20%;
+	height: 20%;
+	flex: 1;
+
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#profile-pic:hover {
+	width: 20%;
+	height: 20%;
+	flex: 1;
+	src: url("thanos.png");
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#about-me {
+	flex: 3;
+	font-size: 2em;
+
+}
+
+mark.orange {
+	color: #ff9900;
+	background: none;
+}
 
 h1 {
     text-align: center;
@@ -84,6 +122,9 @@ ul {
 ol {
 	color: #ffffff;
 }
+
+
+
 
 #description-text{
     text-align: center;
