@@ -72,15 +72,20 @@
 	justify-content: center;
 	padding: 2%;
 	flex-direction: column;
-
 }
 
 .screenshot-container {
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
-
+.interest-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
 .screenshot {
 	width: 15%;
 	height: 15%;
@@ -95,6 +100,28 @@
 
 .link {
 	color: #65c6c4;
+}
+.interest-list {
+	flex: 1;
+	align-items: flex-start;
+}
+.interest-ranking {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 90%;
+	flex-wrap: wrap;
+
+}
+.interest-item {
+	flex: 1 0 30%;
+	padding: 10px;
+}
+
+.table {
+	border: 1px solid white;
+	border-color: white;
+	border-collapse: separate;
 }
 
 #lucriment {
@@ -148,7 +175,17 @@
 	text-decoration: underline;
 	margin-bottom: 1%;
 }
-
+#interests-label {
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 4em;
+	text-decoration: underline;
+	margin-bottom: 1%;
+}
+#interest-description {
+	font-size: 2em;
+	text-align: center;
+}
 
 mark.orange {
 	color: #ff9900;
@@ -164,10 +201,12 @@ p {
 
 ul {
 	color: #ffffff;
+	font-size: 2em;
 }
 
 ol {
 	color: #ffffff;
+	font-size: 2em;
 }
 h2 {
 	color: #ffffff;
@@ -183,6 +222,12 @@ margin-right: auto;
 background-color:#34699a;
 border: 0 none;
 
+}
+table, tr, th {
+	border: 1px solid white;
+	border-color: white;
+	border-collapse: separate;
+	color: white;
 }
 
 
