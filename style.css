@@ -123,6 +123,9 @@
 	border-color: white;
 	border-collapse: separate;
 }
+.interest-image {
+	padding: 1%
+}
 
 #lucriment {
 	flex: 1;
@@ -141,15 +144,23 @@
 	text-decoration: underline;
 	margin-bottom: 5%;
 }
+#trees {
+	display: flex;
+	justify-content: center;
+
+}
+#tree-pic {
+	width: 20%;
+	height: 20%;
+	padding: 3%;
+	transform: rotate(90deg);
+}
 #profile-pic {
 	width: 20%;
 	height: 20%;
 	flex: 1;
 
-	-webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
+
     transform: rotate(-90deg);
 }
 #profile-pic:hover {
@@ -230,6 +241,9 @@ table, tr, th {
 	color: white;
 }
 
+figure {
+	align-items: center;
+}
 
 
 #description-text{
