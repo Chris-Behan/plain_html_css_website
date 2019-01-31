@@ -101,6 +101,9 @@
 .link {
 	color: #65c6c4;
 }
+.link2 {
+	color: white;
+}
 .interest-list {
 	flex: 1;
 	align-items: flex-start;
@@ -121,10 +124,28 @@
 .table {
 	border: 1px solid white;
 	border-color: white;
-	border-collapse: separate;
+	margin: auto;
+	border-collapse: collapse;
+	margin-bottom: 4%;
 }
 .interest-image {
 	padding: 1%
+}
+.contact-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#description-text{
+    text-align: center;
+}
+
+#profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #lucriment {
@@ -143,6 +164,12 @@
 	font-size: 4em;
 	text-decoration: underline;
 	margin-bottom: 5%;
+}
+#contact-label {
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 4em;
+	text-decoration: underline;
 }
 #trees {
 	display: flex;
@@ -179,6 +206,10 @@
 	flex: 3;
 	font-size: 2em;
 }
+#contact-info {
+	flex: 1;
+	font-size: 2em;
+}
 #portfolio-label {
 	color: #ffffff;
 	font-family: monospace;
@@ -196,6 +227,12 @@
 #interest-description {
 	font-size: 2em;
 	text-align: center;
+}
+#thanos {
+	width: 20%;
+	height: 20%;
+	align-items: center;
+	justify-content: center;
 }
 
 mark.orange {
@@ -245,13 +282,10 @@ figure {
 	align-items: center;
 }
 
-
-#description-text{
-    text-align: center;
+td {
+	border: 1px solid white;
+	padding: 8px;
 }
-
-#profile-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+tr:nth-child(odd) {
+    background-color: #408ab4;
 }
