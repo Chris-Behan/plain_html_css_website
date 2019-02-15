@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Calculator</title>
+
+    <!-- meaningful comments and meta stuff -->
+    <!-- script src="script.js" type='text/javascript' ></script -->
+    <!-- link href="style.css" rel="stylesheet" /-->
+
+    <style></style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc.css">
+      </head>
+
+  <body>
+
+    <div class="container-fluid align-bottom justify-content-center bg-secondary" >
+	  <div class="row text-right p-1  bg-secondary text-dark
+	   align-items-center pull-right">
+	   <h2 id="prev" class="col-12 text-truncate">0</h2>
+	  </div>
+      <div class="row text-right pt-0 px-3 bg-secondary text-dark
+	   align-items-center pull-right" >
+	   <div class="col-12 bg-light">
+	   	<h1 id="screen" class="text-truncate">0</h1>
+	   </div>
+
+      </div>
+      <div class="row p-3" >
+        <div class="col-3 ">
+			<button id="lb" type="button" name="button" class="btn-primary btn-block">
+			(
+			</button>
+        </div>
+		<div class="col-3">
+			<button id="rb" type="button" name="button" class="btn-primary btn-block">
+			)
+			</button>
+		</div>
+		<div class="col-6">
+			<button id="clear" type="button" name="button" class="btn-primary btn-block">
+			CE
+			</button>
+		</div>
+      </div>
+	  <div class="row p-3" >
+        <div class="col-3 ">
+			<button id="7" type="button" name="button" class="btn-primary btn-block">
+			7
+			</button>
+        </div>
+		<div class="col-3">
+			<button id="8" type="button" name="button" class="btn-primary btn-block">
+			8
+			</button>
+		</div>
+		<div id="9" class="col-3">
+			<button type="button" name="button" class="btn-primary btn-block">
+			9
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="divide" type="button" name="button" class="btn-primary btn-block">
+			/
+			</button>
+		</div>
+      </div>
+	  <div class="row p-3" >
+        <div class="col-3 ">
+			<button id="4" type="button" name="button" class="btn-primary btn-block">
+			4
+			</button>
+        </div>
+		<div class="col-3">
+			<button id="5" type="button" name="button" class="btn-primary btn-block">
+			5
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="6" type="button" name="button" class="btn-primary btn-block">
+			6
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="multiply" type="button" name="button" class="btn-primary btn-block">
+			X
+			</button>
+		</div>
+      </div>
+	  <div class="row p-3" >
+        <div class="col-3 ">
+			<button id="1" type="button" name="button" class="btn-primary btn-block">
+			1
+			</button>
+        </div>
+		<div class="col-3">
+			<button id="2" type="button" name="button" class="btn-primary btn-block">
+			2
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="3" type="button" name="button" class="btn-primary btn-block">
+			3
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="minus" type="button" name="button" class="btn-primary btn-block">
+			-
+			</button>
+		</div>
+      </div>
+	  <div class="row p-3" >
+        <div class="col-3 ">
+			<button id="0" type="button" name="button" class="btn-primary btn-block">
+			0
+			</button>
+        </div>
+		<div class="col-3">
+			<button id="decimal" type="button" name="button" class="btn-primary btn-block">
+			.
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="equals" type="button" name="button" class="btn-primary btn-block">
+			=
+			</button>
+		</div>
+		<div class="col-3">
+			<button id="plus" type="button" name="button" class="btn-primary btn-block">
+			+
+			</button>
+		</div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="calc.js" charset="utf-8"></script>
+  </body>
+
+</html>
